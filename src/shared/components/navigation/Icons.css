@@ -1,0 +1,50 @@
+.icons {
+    flex-grow: 1;
+    display: flex;
+    padding-right: 1.5rem;
+    justify-content: flex-end;
+}
+
+.icons div {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.icons div svg {
+    opacity: .55;
+    transition: .5s;
+}
+
+.icons div:hover svg, .icons div:hover .dot {
+    transform: scale(1.4);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icons div a {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    position:relative;
+}
+
+.heart, .lock {
+    border-right: 2px solid rgba(0, 0, 0, .2)
+}
+
+.dot {
+    display: inline-block;
+    height: .9rem;
+    width: .9rem;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+    position: absolute;
+    top: -.5rem;
+    right: -1rem;
+    z-index: 10;
+    transition: .5s;
+}

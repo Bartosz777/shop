@@ -1,0 +1,9 @@
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 10vh;
+    border-bottom: .2rem solid rgba(0, 0, 0, 0.1);
+}
