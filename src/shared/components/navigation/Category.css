@@ -21,6 +21,18 @@
     height: 100%;
 }
 
+.categories a.active {
+    background-color: #ddd;
+}
+
+.categories a.active:nth-child(1) p {
+    border-bottom: 2px solid red;
+}
+
+.categories a.active p {
+    border-bottom: 2px solid black;
+}
+
 .categories a:hover {
     background-color: #ddd;
 }
@@ -35,5 +47,4 @@
 
 .categories a p:hover {
     border-bottom: 2px solid black;
-    cursor: pointer;
 }

@@ -1,0 +1,32 @@
+.product { 
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    border: .2rem solid rgba(0, 0, 0, .3);
+    transition: .3s;   
+}
+
+.product p {
+    align-self: flex-end;
+    padding-right: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+.product img {
+    width: 90%;
+    height: 12rem;
+}
+
+.product h3 {
+    font-size: 1.3rem;
+}
+
+.product:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    transform: scale(1.1);
+}

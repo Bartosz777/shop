@@ -8,7 +8,9 @@ function App() {
     <Router>
       <MainNavigation />
       <Switch>
-        <MainPage />
+        <Route to="/">
+          <MainPage/>
+        </Route>
       </Switch>
     </Router>
   );

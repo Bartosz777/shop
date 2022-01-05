@@ -1,0 +1,12 @@
+.product-view {
+    width: 95%;
+    height: 40vh;
+    background-color: #fff;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    overflow: hidden;
+}
+
