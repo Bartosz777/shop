@@ -1,0 +1,20 @@
+.newsletter {
+    width: 80%;
+    height: 20vh;
+    background-color: #ccdfab;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.car, .done, .phone {
+    text-align: center;
+}
+
+.car svg, .done svg, .phone svg {
+    align-self: center;
+    font-size: 3rem;
+    border-bottom: .1rem solid black;
+}

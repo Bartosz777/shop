@@ -6,6 +6,8 @@
     align-items: center; 
     transition: .3s;   
     position: relative;
+    text-decoration: none;
+    color: black;
 }
 
 .product p {
